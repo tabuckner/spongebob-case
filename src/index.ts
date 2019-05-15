@@ -8,3 +8,8 @@ export { SpongebobCase } from './lib/spongebob-case'
  */
 export { SimpleAlternate } from './strategies/simple-alternate.strategy'
 export { AlternateIgnoreSpaces } from './strategies/alternate-ignore-spaces'
+
+/**
+ * INTERFACES
+ */
+export { SCTranslator } from './models/translator.interface'

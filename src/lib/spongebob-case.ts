@@ -1,9 +1,10 @@
+import { SCTranslator } from '../models/translator.interface'
 import { TranslatorStrategy } from '../models/translator-strategy.interface'
 
 // Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
 // import "core-js/fn/array.find"
 // ...
-export class SpongebobCase {
+export class SpongebobCase implements SCTranslator {
   private strategy: TranslatorStrategy
 
   constructor(strategy: TranslatorStrategy) {
