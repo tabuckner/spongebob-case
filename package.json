@@ -1,6 +1,6 @@
 {
   "name": "spongebob-case",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "main": "dist/spongebob-case.umd.js",
