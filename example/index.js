@@ -1,11 +1,7 @@
-const LazyVinLib = require('../dist/lazy-vin-lib.umd');
-const SpongebobCase = require('../dist/spongebob-case.umd');
-const Simple = require('../dist/');
-const myLazyVin = new LazyVinLib()
+const SC = require('../dist/spongebob-case.umd');
+const simpleTranslator = new SC.SpongebobCase(new SC.SimpleAlternate());
+const alternatingTranslator = new SC.SpongebobCase(new SC.AlternateIgnoreSpaces());
 
-const iterations = 50;
-for (let i = 0; i < iterations; i++) {
-  const vin = myLazyVin.getRandomCleanVin();
-  const test = myLazyVin.fixCheckDigit(vin);
-  console.log({vin, test});
-}
+const testStr = 'This is a testing string.'
+console.log(simpleTranslator.translate(testStr));
+console.log(alternatingTranslator.translate(testStr));
