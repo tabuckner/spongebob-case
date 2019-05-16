@@ -15,13 +15,13 @@ An over engineered Typescript library that utilizes the OOP [Strategy Pattern](h
 
 #### Install
 ```bash
-yarn add spongebob-case
+yarn add @tabuckner/spongebob-case
 ```
 
 ### Importing library
 
 ```javascript
-const SC = require('../dist/spongebob-case.umd');
+const SC = require('@tabuckner/spongebob-case.umd');
 const simpleTranslator = new SC.SpongebobCase(new SC.SimpleAlternate());
 const alternatingTranslator = new SC.SpongebobCase(new SC.AlternateIgnoreSpaces());
 
@@ -37,7 +37,7 @@ import something from 'mylib/dist/lib/something'
 ```
 
 ```javascript
-import { SpongebobCase, SimpleAlternate, AlternateIgnoreSpaces } from '../dist/spongebob-case.es5';
+import { SpongebobCase, SimpleAlternate, AlternateIgnoreSpaces } from '@tabuckner/spongebob-case.es5';
 
 const simpleTranslator = new SpongebobCase(new SimpleAlternate());
 const alternatingTranslator = new SpongebobCase(new AlternateIgnoreSpaces());
@@ -48,8 +48,8 @@ console.log(alternatingTranslator.translate(testStr)); // ThIs Is A tEsTiNg StRi
 ```
 
 ```typescript
-import { SpongebobCase, AlternateIgnoreSpaces, SimpleAlternate } from "spongebob-case";
-import { SCTranslator } from "spongebob-case/dist/types/translator.interface";
+import { SpongebobCase, AlternateIgnoreSpaces, SimpleAlternate } from "@tabuckner/spongebob-case";
+import { SCTranslator } from "@tabuckner/spongebob-case/dist/types/translator.interface";
 
 export class MyClass {
   private simpleTranslator: SCTranslator;
