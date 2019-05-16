@@ -8,6 +8,7 @@
 <!-- [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/AJoverMorales) -->
 
 An over engineered Typescript library that utilizes the OOP [Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern).
+[Stackblitz Demo](https://stackblitz.com/edit/angular-wpb9a4)
 
 ![](https://imgflip.com/s/meme/Mocking-Spongebob.jpg)
 

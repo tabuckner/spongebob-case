@@ -1,6 +1,6 @@
 {
   "name": "@tabuckner/spongebob-case",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": [],
   "main": "dist/spongebob-case.umd.js",
